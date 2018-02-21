@@ -1,0 +1,99 @@
+.register-area {
+    padding: 40px 0;
+}
+
+.reg-logo {
+    margin: 0 0 20px;
+}
+
+.register-details {
+    background-color: #f1f0f0;
+    padding: 50px 25px;
+    border-radius: 15px;
+}
+
+.reg-title {
+    color: #3498db;
+    font-size: 20px;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}
+
+.form-group label {
+    color: #1d1d1d;
+}
+
+.form-group input {
+    height: 45px;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+    box-shadow: none;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.req-title {
+    font-size: 17px;
+    color: #1d1d1d;
+    margin: 0 0 10px;
+}
+
+.req-ul li {
+    list-style: none;
+    color: #1d1d1d;
+}
+
+.suffer {
+    color: #1d1d1d;
+    margin-left: 10px;
+}
+
+.req-p {
+    color: #1d1d1d;
+}
+
+.req-p-bot {
+    color: #1d1d1d;
+    margin: 25px 0 10px;
+}
+
+.req-p-bot span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.req-p-box {
+    margin-left: 5px !important;
+}
+
+.suffer-two {
+    font-weight: normal !important;
+    margin-left: 5px;
+}
+
+.reg-btn {
+    padding: 20px 100px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #0229A7;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 20px 0 0;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #3498db;
+    background: #3498db;
+    color: #fff;
+}
+
+.ui-state-hover{
+    cursor: pointer;
+    border: 0 !important;
+}

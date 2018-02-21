@@ -1,0 +1,141 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ======= titles ======= -->
+    <title>conscare</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="urosd">
+    <!-- ======= favicon ======= -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- ======= Google Fonts ======= -->
+    <!-- Open Sans Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <!-- ======= css ======= -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ======= modernizr js ======= -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!-- Add your site or application content here -->
+
+    <!-- ======= preloader part start ======= -->
+
+    <div class="preloader">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- ======= preloader part end ======= -->
+
+    <!-- ======= comming soon part star ======= -->
+    <section class="coming-soon-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="coming-soon-content">
+                        <div class="coming-soon-table-cell">
+                            <!-- logo part -->
+                            <div class="conscare-logo">
+                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            </div>
+                            <h1>thanks for your <span>patience</span></h1>
+                            <h2>we are coming soon</h2>
+                            <!-- Count Down Area -->
+                            <div class="count-down-area">
+                                <div id="coundt-down">
+                                    <div class="single-count"><span>6</span> Months</div>
+                                    <div class="single-count"><span>21</span> Days</div>
+                                    <div class="single-count"><span>12</span> Hours</div>
+                                    <div class="single-count"><span>10</span> Minutes</div>
+                                    <div class="single-count"><span>30</span> Seconds</div>
+                                </div>
+                            </div>
+                            <a href="index.html" class="conscare-btn hvr-bounce-to-right">home</a>
+                            <a href="about.html" class="conscare-btn non-bg-btn hvr-bounce-to-left">about us</a>
+                            <div class="social-link">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= comming soon part end ======= -->
+    <!-- ======= footer area start ======= -->
+    <footer class="footer-area parallax">
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="copy-right">
+                            <p>Copyright <span>&copy;</span> Construction 2017. All rights reserved. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="copy-right text-right">
+                            <p>Created by: <a href="https://themeforest.net/user/urosd/portfolio" target="_blank">| urosd |</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ======= footer area end ======= -->
+
+    <!-- ======= js ======= -->
+    <!-- jQuery -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- countdown js -->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- slicknav js -->
+    <script src="js/jquery.slicknav.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- parallax js -->
+    <script src="js/jarallax.min.js"></script>
+    <!-- waypoints js -->
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <!-- counterup js -->
+    <script src="js/counterup.min.js"></script>
+    <!-- slick slider js -->
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- scrollUp js -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script>
+        /*  ======================================
+                        Count Down
+                    ====================================== */
+        var themeCountDown = $("#coundt-down");
+        themeCountDown.countdown("2018/3/10", function(event) {
+            var $this = $(this).html(event.strftime('' + '<div class="single-count"><span>%-m</span> Month%!m</div>' + '<div class="single-count"><span>%-d</span> Day%!d</div>' + '<div class="single-count"><span>%H</span> Hours</div>' + '<div class="single-count"><span>%M</span> Minutes</div>' + '<div class="single-count"><span>%S</span> Seconds</div>'));
+        });
+
+    </script>
+</body>
+
+</html>
